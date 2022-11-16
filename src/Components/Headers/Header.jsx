@@ -40,7 +40,7 @@ const Header = () => {
     signOut(auth)
       .then(() => {
         toast.success("Logged out");
-        navigate("/home");
+        navigate("Furniture-Store/home");
       })
       .catch((err) => {
         toast.error(err.message);
@@ -63,10 +63,10 @@ const Header = () => {
   const menuToggle = () => menuRef.current.classList.toggle("active_menu");
 
   const navigateToCart = () => {
-    navigate("/cart");
+    navigate("Furniture-Store/cart");
   };
   const navigateToHome = () => {
-    navigate("/home");
+    navigate("Furniture-Store/home");
   };
 
   return (
@@ -86,7 +86,7 @@ const Header = () => {
               <ul className="menu">
                 <li className="nav_item">
                   <NavLink
-                    to="home"
+                    to="Furniture-Store/home"
                     className={(navClass) =>
                       navClass.isActive ? "nav__active" : " "
                     }
@@ -94,7 +94,7 @@ const Header = () => {
                     Home
                   </NavLink>
                   <NavLink
-                    to="shop"
+                    to="Furniture-Store/shop"
                     className={(navClass) =>
                       navClass.isActive ? "nav__active" : ""
                     }
@@ -102,7 +102,7 @@ const Header = () => {
                     Shop
                   </NavLink>
                   <NavLink
-                    to="cart"
+                    to="Furniture-Store/cart"
                     className={(navClass) =>
                       navClass.isActive ? "nav__active" : ""
                     }
@@ -140,7 +140,7 @@ const Header = () => {
                   ) : (
                     <div className="join_btn">
                       <span>
-                        <Link to="/signup">Signup</Link>
+                        <Link to="Furniture-Store/signup">Signup</Link>
                       </span>
                       {/* <span>
                         <Link to="/login">Login</Link>

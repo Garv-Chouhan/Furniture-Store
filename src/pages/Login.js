@@ -28,7 +28,7 @@ function Login() {
       console.log(user);
       setLoading(false);
       toast.success("Sucessfully logged in");
-      navigate("/checkout");
+      navigate("/Furniture-Store/checkout");
     } catch (error) {
       setLoading(false);
       toast.error(error.message);
@@ -72,7 +72,7 @@ function Login() {
 
                   <p>
                     Don't have an account?{" "}
-                    <Link to="/signup">Create an account</Link>
+                    <Link to="/Furniture-Store/signup">Create an account</Link>
                   </p>
                 </Form>
               </Col>

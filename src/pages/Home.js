@@ -64,7 +64,7 @@ function Home() {
                   of support to wrap up.
                 </p>
                 <motion.button whileTap={{ scale: 1.2 }} className="buy_btn">
-                  <Link to="/shop">SHOP NOW</Link>
+                  <Link to="/Furniture-Store/shop">SHOP NOW</Link>
                 </motion.button>
               </div>
             </Col>
@@ -116,7 +116,7 @@ function Home() {
                 whileTap={{ scale: 1.2 }}
                 className="buy_btn store_btn"
               >
-                <Link to="/shop">Visit Store</Link>
+                <Link to="/Furniture-Store/shop">Visit Store</Link>
               </motion.button>
             </Col>
 
