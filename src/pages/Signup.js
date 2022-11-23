@@ -119,8 +119,7 @@ function Signup() {
                   </button>
 
                   <p>
-                    Already have an account?{" "}
-                    <Link to="/Furniture-Store/login">Login</Link>
+                    Already have an account? <Link to="/login">Login</Link>
                   </p>
                 </Form>
               </Col>

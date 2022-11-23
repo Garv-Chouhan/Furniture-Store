@@ -13,22 +13,22 @@ import SuccessPage from "../pages/SuccessPage";
 function Routers() {
   return (
     <Routes>
-      {/* <Route path="/" element={<Navigate to="/home" />} /> */}
-      <Route path="Furniture-Store/home" element={<Home />} />
-      <Route path="Furniture-Store/shop" element={<Shop />} />
-      <Route path="Furniture-Store/shop/:id" element={<ProductDetails />} />
-      <Route path="Furniture-Store/cart" element={<Cart />} />
+      <Route path="/" element={<Navigate to="/home" />} />
+      <Route path="home" element={<Home />} />
+      <Route path="shop" element={<Shop />} />
+      <Route path="shop/:id" element={<ProductDetails />} />
+      <Route path="cart" element={<Cart />} />
       <Route
-        path="Furniture-Store/checkout"
+        path="checkout"
         element={
           <ProtectedRoute>
             <Checkout />
           </ProtectedRoute>
         }
       />
-      <Route path="Furniture-Store/login" element={<Login />} />
-      <Route path="Furniture-Store/signup" element={<Signup />} />
-      <Route path="Furniture-Store/SuccessPage" element={<SuccessPage />} />
+      <Route path="login" element={<Login />} />
+      <Route path="signup" element={<Signup />} />
+      <Route path="SuccessPage" element={<SuccessPage />} />
     </Routes>
   );
 }

@@ -69,7 +69,7 @@ const PaymentForm = () => {
               // type="submit"
               className="buy_btn auth_btn w-100 place_btn"
             >
-              <Link to="/Furniture-Store/SuccessPage" color="#000">
+              <Link to="/SuccessPage" color="#000">
                 Place on order
               </Link>
             </button>

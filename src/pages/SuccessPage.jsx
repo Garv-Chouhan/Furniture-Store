@@ -32,7 +32,7 @@ const SuccessPage = () => {
                   </a>
                 </p>
                 <button type="button" width="300px" className="buy_btn">
-                  <Link to="/Furniture-Store/shop">Continue Shopping</Link>
+                  <Link to="/shop">Continue Shopping</Link>
                 </button>
               </div>
             </Col>

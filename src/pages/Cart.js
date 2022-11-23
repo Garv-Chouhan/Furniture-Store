@@ -55,10 +55,10 @@ function Cart() {
               </p>
               <div>
                 <button className="buy_btn w-100">
-                  <Link to="/Furniture-Store/checkout">Checkout</Link>
+                  <Link to="/checkout">Checkout</Link>
                 </button>
                 <button className="buy_btn w-100 mt-3">
-                  <Link to="/Furniture-Store/shop">Continue Shopping </Link>
+                  <Link to="/shop">Continue Shopping </Link>
                 </button>
               </div>
             </Col>
